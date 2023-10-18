@@ -3,9 +3,8 @@ import AuthProvider from './Provider/AuthProvider';
 
 const App = () => {
   return (
-    <>
-    <AuthProvider/>
-    </>
+  
+    <></>
   );
 }
 
