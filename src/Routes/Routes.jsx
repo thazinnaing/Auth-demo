@@ -1,7 +1,8 @@
 import React from 'react';
+import ProtectedRoutes from './ProtectedRoutes';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { useAuth } from '../Provider/AuthProvider';
-import ProtectedRoutes from './ProtectedRoutes';
+
 
 const Routes = () => {
     const {token}=useAuth();
@@ -63,7 +64,7 @@ const Routes = () => {
   return (
     <RouterProvider router={router} />
   );
-  
+
 }
 
 export default Routes;
